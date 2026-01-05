@@ -37,7 +37,6 @@ class Prompts_es:
         }
 
     def build_person_info(self, user_demographics_selected):
-        """Build person info string based on user demographics."""
         age_str = ""
 
         raw_age = user_demographics_selected.get('age', '')
